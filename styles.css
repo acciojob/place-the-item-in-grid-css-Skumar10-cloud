@@ -1,2 +1,16 @@
 
 /* Your CSS Code here. */
+.holder{
+    display: grid;
+    width: 420px;
+    background-color: #2196F3;
+    padding: 10px;
+    text-align: center;
+    grid-template-columns: repeat(2, 200px);
+}
+
+.holder div{
+    padding: 10px;
+    border: 2px solid black;
+    grid-template-columns: repeat(2, 20px);
+}
